@@ -400,6 +400,25 @@ h6 {
 .footer {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-icons{
+    width: 100%;
+    text-align: center;
+    color:black;
+    padding: 10px 0px;
+}
+.footer h6{
+    margin-bottom: 5px;
+}
+.footer-icons img {
+    margin: 5px;
+    height: 40px;width: 40px;
+}
+.footer-icons svg{
+    margin: 5px;
+    height: 40px;width: 40px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -432,5 +451,11 @@ h6 {
 
     #preview {
         width: 280px;
+    }
+    .footer-icons img svg{
+        margin: 5px;
+        color: white;
+        
+        height: 30px;width: 30px;
     }
 }
