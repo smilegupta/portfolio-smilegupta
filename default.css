@@ -9,7 +9,7 @@
 
     --themeDotBorder: #24292e;
 
-    --previewBg: rgb(251, 249, 243, 0.8);
+    --previewBg: rgb(251, 249, 243);
     --previewShadow: #f0ead6;
 
     --buttonColor: black;
@@ -318,6 +318,7 @@ h6 {
 .source-code {
     display: flex;
     justify-content: space-between;
+    padding-top: 4px;
 }
 
 .post-wrapper {
@@ -329,6 +330,7 @@ h6 {
 }
 
 .post {
+    background-color: white !important;
     border: 1px solid var(--borderColor);
     -webkit-box-shadow: -2px 7px 21px -9px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: -2px 7px 21px -9px rgba(0, 0, 0, 0.75);
@@ -350,11 +352,19 @@ h6 {
 .post-title {
     color: black;
     margin: 0;
+    padding-bottom: 4px;
 }
 
 .post-intro {
     color: #4b5156;
     font-size: 14px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    line-height: 20px;
+    min-height: 60px;
+    /*padding-top: inherit;*/
 }
 
 #contact-form {
