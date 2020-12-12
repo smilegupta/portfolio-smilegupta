@@ -46,8 +46,3 @@ for (let theme = 0; themeDots.length > theme; theme++) {
     });
 }
 
-var simpleText = "hello_world";
-
-const getProjectContent = () => {
-
-}
