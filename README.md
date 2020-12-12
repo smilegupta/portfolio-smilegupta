@@ -2,9 +2,9 @@
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/smilegupta)
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/smilegupta) [![Made With Love](https://img.shields.io/badge/Made%20With-Love-orange.svg)](https://github.com/smilegupta)
 
-Wonder How we can you make an amazing Portfolio using HTML CSS JS? If No, this will be the perfect repo for you.
+Wonder how you can you make an amazing Portfolio using HTML CSS JS? If yes, this will be the perfect repo for you!
 
-###### **Here is the link of [Live Demo](https://smilegupta.github.io/portfolio-smilegupta/)**
+###### **Here is the link to the [live demo](https://smilegupta.github.io/portfolio-smilegupta/)**
 
 
 ## Technology Stack Used
@@ -21,8 +21,8 @@ Wonder How we can you make an amazing Portfolio using HTML CSS JS? If No, this w
 ```
 
   if (needHelp === true) {
-     var emailId = "guptamiley3012@gmail.com";
-     // email is the best way to reach out to me.
+     // email is the best way to reach out to me!
+     const emailId = "guptamiley3012@gmail.com";
      sendEmail(emailId);
   }
 
