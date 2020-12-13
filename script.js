@@ -25,17 +25,15 @@ function setTheme(mode) {
     document.getElementById('github').style.fill="white";
     document.getElementById('codesandbox').style.fill="black";
     document.getElementById('codepen').style.fill="white";
-
   }
-
   localStorage.setItem("theme", mode);
 }
 
 let theme = localStorage.getItem("theme");
 
 // Fetching the theme from the local storage if available
-if (theme) setTheme("light");
-else setTheme(theme);
+if (theme) setTheme(theme);
+else setTheme("light");
 
 let themeDots = document.getElementsByClassName("theme-dot");
 
