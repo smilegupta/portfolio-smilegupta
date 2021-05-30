@@ -145,6 +145,51 @@ class Project {
 
 const projects = [
   {
+    projectName: "Chat Loop",
+    projectDescription:
+      "Chat Loop is a highly scalable, low cost and high performant chat application built on AWS and React leveraging GraphQL subscriptions for real time communication.",
+    projectImage: "images/chatloop.png",
+    codeLink: "https://github.com/smilegupta/chatloop-frontend",
+    demoLink: "https://chat-loop.smilegupta.tech/"
+  },{
+    projectName: "Image Dock",
+    projectDescription:
+      "ImageDock is a one-stop solution to upload images, create albums and get embedded codes.",
+    projectImage: "images/imagedock.png",
+    codeLink: "https://github.com/smilegupta/ImageDock",
+    demoLink: "https://image-dock.smilegupta.tech/"
+  },{
+    projectName: "Notes Yard",
+    projectDescription:
+      "Its an application to create notes and notebooks.",
+    projectImage: "images/notesyard.png",
+    codeLink: "https://github.com/smilegupta/notes-yard-frontend",
+    demoLink: "https://notes-yard.smilegupta.tech/"
+  },{
+    projectName: "Movies Deck",
+    projectDescription:
+      "Movie's Deck is a movie listing application. In addition to exploring and searching the listed movies, you can also create watchlists and add movies in your watchlists.",
+    projectImage: "images/movies.png",
+    codeLink: "https://github.com/smilegupta/movies-deck",
+    demoLink: "https://movies-deck.smilegupta.tech/"
+  },
+  {
+    projectName: "Talent Board",
+    projectDescription:
+      "This is a community initiative to connect active job seekers with organizations and people who participate in employee referral programs.",
+    projectImage: "images/talentboard.png",
+    codeLink: "https://github.com/CodeOpsTechnologies/talent-board-fe",
+    demoLink: "https://talent.awsug.in/"
+  },
+  {
+    projectName: "Pokedex",
+    projectDescription:
+      "Pokedex is an application built using typescript to get the check the list of pokemons and their properties.",
+    projectImage: "images/pokedex.png",
+    codeLink: "https://github.com/smilegupta/pokedex",
+    demoLink: "https://pokedeck.smilegupta.tech/"
+  },
+  {
     projectName: "Lets Play with APIs: Breaking Bad",
     projectDescription:
       "Designed & built a the application using Axios and React-Hooks to display characters of a Sci-fic show Breaking Bad.",
@@ -216,30 +261,7 @@ const projects = [
     codeLink: "https://smilegupta.github.io/JavaScript-QuizApp/",
     demoLink: "https://smilegupta.github.io/JavaScript-QuizApp/"
   },
-  {
-    projectName: "Virtual Birthday Party",
-    projectDescription:
-      "Designed & Built Website that replicates a virtual birthday party scene using HTML CSS and Vanilla JavaScript.",
-    projectImage: "images/virtual-party.png",
-    codeLink: "https://github.com/smilegupta/LockDownValaBday",
-    demoLink: "https://smilegupta.github.io/LockDownValaBday/"
-  },
-  {
-    projectName: "Musical Birthday Wishes",
-    projectDescription:
-      "Designed & Built Website that wishes birthday musically using HTML CSS and Vanila JavaScript.",
-    projectImage: "images/wishes.png",
-    codeLink: "https://smilegupta.github.io/ShivanshuBday/",
-    demoLink: "https://github.com/smilegupta/ShivanshuBday/"
-  },
-  {
-    projectName: "E-Birthday Card",
-    projectDescription:
-      "Designed & Built E-Birthday Card using HTML CSS and Vanilla JavaScript.",
-    projectImage: "images/card.png",
-    codeLink: "https://smilegupta.github.io/HappyBirthdayTanayPratap/",
-    demoLink: "https://github.com/smilegupta/HappyBirthdayTanayPratap/"
-  }
+ 
 ];
 
 const createCards = () => {
