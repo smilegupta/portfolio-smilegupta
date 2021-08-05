@@ -258,7 +258,7 @@ const projects = [
     projectDescription:
       "Designed & Built Quizzing Application using HTML CSS and Vanilla JavaScript.",
     projectImage: "images/quiz.png",
-    codeLink: "https://smilegupta.github.io/JavaScript-QuizApp/",
+    codeLink: "https://github.com/smilegupta/JavaScript-QuizApp/",
     demoLink: "https://smilegupta.github.io/JavaScript-QuizApp/"
   },
  
