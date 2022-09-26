@@ -208,7 +208,7 @@ const projects = [
   {
     projectName: "Rotating Navigation",
     projectDescription:
-      "Designed & Built the Rotating NavBar animation using HTML CSS and Vanilla avaScript.",
+      "Designed & Built the Rotating NavBar animation using HTML CSS and Vanilla JavaScript.",
     projectImage: "images/rotating-nav.png",
     codeLink: "https://github.com/smilegupta/Rotating-navigation",
     demoLink: "https://smilegupta.github.io/Rotating-navigation/"
